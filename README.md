@@ -7,7 +7,9 @@
 
 ---
 
-**本版本是我在\href{https://github.com/ElegantLaTeX/ElegantBook}{https://github.com/ElegantLaTeX/ElegantBook}基础上修改成每章分多个tex文件得到的。**
+**本版本是我在 https://github.com/ElegantLaTeX/ElegantBook 基础上修改成每章分多个tex文件得到的。此版本只保留了中文版。**
+
+*每一章的tex文件在chapters文件夹里面，直接进去编辑即可，可以自己新建和删除，但是要在根目录的main.tex中按顺序增加或者删除对应的include。*
 
 # ElegantBook 优美的 LaTeX 书籍模板
 
