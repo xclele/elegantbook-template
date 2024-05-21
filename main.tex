@@ -1,0 +1,27 @@
+\documentclass[lang=cn,10pt]{elegantbook}
+\title{ElegantBook：优美的 \LaTeX{} 书籍模板}
+\subtitle{Elegant\LaTeX{} 经典之作}
+\author{Ethan Deng \& Liam Huang}
+\institute{Elegant\LaTeX{} Program}
+\date{April 9, 2022}
+\version{4.3}
+\bioinfo{自定义}{信息}
+\extrainfo{不要以为抹消过去，重新来过，即可发生什么改变。—— 比企谷八幡}
+\setcounter{tocdepth}{3}
+\logo{logo-blue.png}
+\cover{cover.jpg}
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+\begin{document}
+\maketitle
+\frontmatter
+\tableofcontents
+\mainmatter
+\include{chapters/chapter1.tex}
+\include{chapters/chapter2.tex}
+\include{chapters/chapter3.tex}
+\include{chapters/chapter4.tex}
+\include{chapters/chapter5.tex}
+\include{chapters/chapter6.tex}
+\include{chapters/appendix1.tex}
+\end{document}
