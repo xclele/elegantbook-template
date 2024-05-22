@@ -814,8 +814,8 @@
             \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
 %  https://tex.stackexchange.com/questions/7032/good-way-to-make-textcircled-numbers
 
-\newcommand*{\eitemi}{\tikz \draw [baseline, ball color=structurecolor,draw=none] circle (2pt);}
-\newcommand*{\eitemii}{\tikz \draw [baseline, fill=structurecolor,draw=none,circular drop shadow] circle (2pt);}
+\newcommand*{\eitemi}{\tikz \draw [baseline, fill=structurecolor,draw=none] circle (2pt);}
+\newcommand*{\eitemii}{\tikz \draw [baseline, fill=structurecolor,draw=none] circle (2pt);}
 \newcommand*{\eitemiii}{\tikz \draw [baseline, fill=structurecolor,draw=none] circle (2pt);}
 \setlist[enumerate,1]{label=\color{structurecolor}\arabic*.}
 \setlist[enumerate,2]{label=\color{structurecolor}(\alph*).}
